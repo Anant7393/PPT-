@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Programming Workshop | NCS</title>
+    <!-- reveal.js CSS Files -->
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
+    <!-- Code syntax highlight CSS file -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <!--[if lt IE 9]>
+			<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+    <style>
+        table,
+        th,
+        td {
+            margin-right: 50px;
+            border: 1px solid black;
+            border-right: 1px solid white;
+            /* border-collapse: collapse; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Particle Js  -->
+    <div id="particles-js"></div>
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="js/particles.min.js"></script>
+
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+    <div class="reveal">
+        <div class="slides">
+            <section data-transition="zoom">
+                <section>
+                    <img style="margin-bottom: 0px" height="170" src="assets/ncsncs_logo.png" alt="" />
+                    <h2 style="font-size: 90px !important">
+                        Hello <span style="color: #ffdf3f">Everyone!</span>
+                    </h2>
+                    <h5>Welcome to our Programming Workshop</h5>
+                    <h5>Nibble Computer Society</h5>
+                    <br />
+
+                    <small>
+                        Press <code>Spacebar</code> for next slide. <br />
+                        <code>Esc</code> or '<code>o</code>' for overview.
+                    </small>
+                </section>
+                <section>
+                    <p>https://programming-workshop.netlify.app/#/</p>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Loops</h3>
+                </section>
+                <section>
+                    <h3>Need of Loops</h3>
+                    <p style="font-size: 35px;">Write a program to print numbers 1 to 10</p>
+                    <img style="height: 500px;" src="assets/Numbers.png" alt="" />
+                </section>
+                <section>
+                    <h3>While loop</h3>
+                    <img style="height: 550px;" src="assets/Frame 2.png" alt="" />
+                </section>
+                <section>
+                    <img src="assets/while-loop-1.png" alt="" />
+                </section>
+                <section>
+                    <h3>Do-While Loop</h3>
+                    <img style="height: 550px;" src="assets/Frame 3.png" alt="" />
+                </section>
+                <section>
+                    <img src="assets/do-while-1.png" alt="" />
+                </section>
+                <section>
+                    <h3>For Loop</h3>
+                    <img style="height: 550px;" src="assets/Frame 4.png" alt="" />
+                </section>
+                <section>
+                    <img src="assets/for-loop-1.png" alt="" />
+                </section>
+                <section>
+                    <h3>Infinite Loop</h3>
+                    <p style="font-size: 30px;">An infinite loop is a sequence of instructions that, as written,
+                        will continue endlessly, unless an external intervention occurs.
+                    </p>
+                    <img src="assets/Infinite-loop.png" alt="" />
+                </section>
+            </section>
+
+            <section>
+                <section data-transition="concave">
+                    <h3>Arrays</h3>
+                </section>
+                <section>
+                    <h3>What is an Array?</h3>
+                    <p style="font-size: 35px;">An Array is a collection of items stored at contiguos memory locations.
+                    </p>
+                </section>
+                <section>
+                    <h3>Need of an Array</h3>
+                    <p style="font-size: 35px;">Problem to store ages of 100 people and iterating over it</p>
+                    <img src="assets/Array-1.png" alt="" />
+                </section>
+                <section>
+                    <h3>What are Arrays and their usefulness?</h3>
+                    <img src="assets/Array-2.jpg" alt="" />
+                </section>
+                <section>
+                    <h3>Limitations of Arrays.</h3>
+                    <ul style="font-size: 35px;">
+                        <li>Static data structure</li>
+                        <li>All elements have the same data types</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Types of Arrays</h3>
+                    <img src="assets/Array-3.png" alt="" />
+                </section>
+            </section>
+
+            <section>
+                <section data-transition="zoom">
+                    <h3>Pointers and references</h3>
+                </section>
+                <section data-transition="zoom">
+                    <h3>Need of Pointers</h3>
+                    <p style="font-size: 35px;">Sometimes it’s better to give the address of your home rather than
+                        giving your home.</p>
+                </section>
+                <section>
+                    <h3>How to use Pointers</h3>
+                    <img style="height: 500px;" src="assets/unnamed.png" />
+                </section>
+                <section>
+                    <h3 style="padding-top: 15px;">References</h3>
+                    <img src="assets/References.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Functions</h3>
+                </section>
+                <section>
+                    <div>
+                        <h3>Need for Functions</h3>
+                        <ul style="max-width: 720px; font-size: 30px; padding-left: 30px;">
+                            <li>Modular</li>
+                            <li>We can define a code once and then use it as many times as we want in just one line.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <img src="assets/functions.png" alt="" />
+                </section>
+                <section>
+                    <h3 style="font-size: 50px;">Declaring and defining a function</h3>
+                    <img style="height: 550px; width: 680px;" src="assets/functions-2.png" alt="" />
+                </section>
+            </section>
+            <section data-transition="concave">
+                <section>
+                    <h3>Memory Visualization! </h3>
+                </section>
+                <section>
+                    <h5>What is memory?</h5>
+                </section>
+                <section>
+                    <img src="assets/memory.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Complexity</h3>
+                    <img style="background-color: white;" src="assets/complexity.png" alt="" />
+                </section>
+                <section>
+                    <h4>What is Time Complexity?</h4>
+                </section>
+                <section>
+                    <p style="font-size: 35px;">Time complexity is simply a measure of the time it takes for a function
+                        or
+                        expression to complete its task, as well as the name of the process to measure
+                        that time.
+                    </p>
+                </section>
+                <section>
+                    <img style="height: 650px;" src="assets/complexity-2.png" alt="" />
+                </section>
+                <section>
+                    <pre style="font-size: 24px;  color: white; ">
+
+
+                                                 N = 1000033 ( Prime number ) <br>
+    Time taken by A's program = 1 ms * number of divisions <br>
+                                                     = 1 ms * 1000033 <br>
+                                                     = approximately 1000 seconds or 16.7 mins. <br>
+                                                  
+    Time taken by B's program = 1ms * number of divisions <br>
+                                                      = 1ms * square root of 1000033 <br>
+                                                      = approximately 1000ms = 1 second. <br>
+                        </pre>
+                </section>
+                <section>
+                    <pre style="font-size: 24px;  color: white;">
+
+
+                                                 N = 1500450271 ( Prime number ) <br>
+    Time taken by A's program = 1 ms * number of divisions <br>
+                                                     = 1 ms * 1500450271 <br>
+                                                     = approximately 1000000 seconds or 11.5 days. <br>
+                                                  
+                        
+    Time taken by B's program = 1ms * number of divisions <br>
+                                                      = 1ms * square root of 1500450271 <br>
+                                                     = approximately 40000ms = 40 seconds. <br>
+                        </pre>
+                </section>
+                <section>
+                    <img src="assets/complexity-3.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <img style="height: 500px; width: 500px; background-color: wheat;" src="assets/brainstorm.png"
+                        alt="" />
+                    <p style="font-size: 35px;">BrainStorming Sessions</p>
+                </section>
+                <section>
+                    <img src="assets/1.png" alt="" />
+                </section>
+                <section>
+                    <img src="assets/2.png" alt="" />
+                </section>
+                <section>
+                    <img src="assets/3.png" alt="" />
+                </section>
+                <section>
+                    <img src="assets/4.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Space Complexity</h3>
+                    <p style="font-size: 35px;">Space complexity is a measure of how efficient your code is in terms of
+                        memory used.</p>
+                </section>
+                <section>
+                    <h3>Standard Computer System</h3>
+                    <p style="font-size: 35px;">A 2 gigahertz processor means 2*10^9 operations cycles per second.</p>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Searching</h3>
+                </section>
+                <section>
+                    <h4>What is Searching?</h4>
+                    <ul style="font-size: 35px;">
+                        <li>Searching is the process of finding a given value position in a list of values.</li>
+                        <li>It decides whether a search key is present in the data or not.</li>
+                        <li>It is the algorithmic process of finding a particular item in a collection of items.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Sequential Search</h3>
+                    <ul style="font-size: 35px;">
+                        <li>Sequential search is also called Linear Search.</li>
+                        <li>Sequential search starts at the beginning of the list and checks every element of the list.
+                        </li>
+                        <li>It is a basic and simple search algorithm.</li>
+                        <li>Sequential search compares the element with all the other elements given in the list.
+                            If the element is matched, it returns the value index, else it returns -1.</li>
+                    </ul>
+                </section>
+                <section>
+                    <img style="border-radius: 32px;" src="assets/linear-search.png" alt="" />
+                </section>
+                <section>
+                    <h3>Linear Search Function</h3>
+                    <img src="assets/linear-search-func.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Binary Search</h3>
+                    <ul style="font-size: 35px;">
+                        <li>Binary Search is used for searching an element in a sorted array.</li>
+                        <li>It is a fast search algorithm with run-time complexity of O(log n).</li>
+                        <li>Binary search works on the principle of divide and conquer.</li>
+                        <li>This searching technique looks for a particular element by comparing the
+                            middle most element of the collection.</li>
+                        <li>It is useful when there are a large number of elements in an array.</li>
+                    </ul>
+                </section>
+                <section>
+                    <img style="border-radius: 34px;" src="assets/binary-search.png" alt="" />
+                </section>
+                <!-- <section>
+                    <img src="assets/binary-search-func.png" alt="" />
+                </section> -->
+                <section>
+                    <img src="assets/binary-search-func(2).png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Sorting</h3>
+                </section>
+                <section>
+                    <h3>What is sorting?</h3>
+                </section>
+                <section>
+                    <h3>Sorting is the process of arranging elements either in ascending (or) descending order.</h3>
+                </section>
+                <section>
+                    <h3>Insertion Sort</h3>
+                    <p style="font-size: 35px;">Insertion sort is a sorting algorithm that places an
+                        unsorted element at its suitable place in each iteration.
+                        Insertion sort works similarly as we sort cards in our hand in a card game.</p>
+                </section>
+            </section>
+            <section>
+                <img style="height: 100px; width: 700px;" src="assets/insertion-sort(1).png" alt="" />
+                <img style="height: 100px; width: 700px;" src="assets/insertion-sort(2).png" alt="" />
+                <img style="height: 100px; width: 700px;" src="assets/insertion-sort(3).png" alt="" />
+                <img style="height: 100px; width: 700px;" src="assets/insertion-sort(5).png" alt="" />
+            </section>
+            <section>
+                <img style="height: 100px; width: 700px;" src="assets/insertion-sort(4).png" alt="" />
+                <img style="height: 300px; width: 700px;" src="assets/insertion-sort.png" alt="" />
+            </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Merge Sort</h3>
+                </section>
+                <section>
+                    <h3>What is Merge Sort?</h3>
+                    <p style="font-size: 35px;">Merge Sort is a sorting algorithm, which is commonly used in computer
+                        science.
+                        Merge Sort is a divide and conquer algorithm. It first divides the array into
+                        equal halves and then combines them in a sorted manner.</p>
+                </section>
+                <section>
+                    <h3>How does it work?</h3>
+                    <ul style="font-size: 35px;">
+                        <li>If there is only one element in the list it is already sorted, return.</li>
+                        <li>Divide the list into two halves until it can no longer be divided.</li>
+                        <li>Merge the smaller lists into a new list in sorted order.</li>
+                    </ul>
+                </section>
+                <section>
+                    <img style="height: 300px;" src="assets/merge-sort(1).png" alt="" />
+                    <img style="height: 300px;" src="assets/merge-sort(2).png" alt="" />
+                </section>
+                <section>
+                    <h5>Understanding with an example</h5>
+                    <img style="height: 600px;" src="assets/merge-sort(3).png" alt="" />
+                </section>
+                <section>
+                    <h4>Complexity Analysis</h4>
+                    <img src="assets/marge-sort-complexity.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Linked List</h3>
+                </section>
+                <section>
+                    <h4>What is a linked list?</h4>
+                    <p style="font-size: 35px;">A linked list is a linear data structure,
+                        in which the elements are not stored at contiguous memory locations.</p>
+                </section>
+                <section>
+                    <img src="assets/Frame 5.png" alt="" />
+                </section>
+                <section>
+                    <ul style="font-size: 35px;">
+                        <li>They are dynamic in nature which allocates the memory when required.</li>
+                        <li>Insertion and deletion operations can be easily implemented.</li>
+                        <li>Stacks and queues can be easily executed.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Disadvantages of linked list</h3>
+                    <ul style="font-size: 35px;">
+                        <li>The memory is wasted as pointers require extra memory for storage.</li>
+                        <li>No element can be accessed randomly; it has to access each node sequentially.</li>
+                        <li>Linked List reduces the access time.</li>
+                        <li>Reverse Traversing is difficult in the linked list.</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Types of Linked list</h3>
+                </section>
+                <section>
+                    <p>There are 3 different implementations of Linked List available, they are:</p>
+                    <ul style="font-size: 35px;">
+                        <li>Singly linked list.</li>
+                        <li>Doubly linked list.</li>
+                        <li>Circular linked list.</li>
+                    </ul>
+                </section>
+                <section>
+                    <img style="height: 600px;" src="assets/Frame 11.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Singly linked list</h3>
+                    <p style="font-size: 35px;">Singly linked lists contain nodes which have a data part as well as an
+                        address part i.e. next, which points to the next node in the sequence of nodes.</p>
+                </section>
+                <section>
+                    <img src="assets/Frame 6.png" alt="" />
+                </section>
+                <section>
+                    <h3>Create  linked list</h3>
+                    <img src="assets2/create sll.png" alt="" />
+                </section>
+                <section>
+                    <h5>Display linked list and count nodes </h5>
+                    <img src="assets2/count-and-display-sll.png" alt="" />
+                </section>
+                <section>
+                    <h3>Insert node at beginning</h3>
+                    <img src="assets2/insert-beg-sll.png" alt="" />
+                </section>
+                <section>
+                    <h3>Insert node after another </h3>
+
+                    <img src="assets2/insert-after-sll.png" alt="" />
+                </section>
+                <section>
+                    <h3>Insert node at end</h3>
+
+                    <img src="assets2/insert-end-dll.png" alt="" />
+                </section>
+                <section>
+                    <h5>Delete node </h5>
+
+                    <img src="assets2/delete-sll.png" style="height: 16em;" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Doubly linked list</h3>
+                    <p style="font-size: 35px;">In a doubly linked list, each node contains a data part and two
+                        addresses,
+                        one for the previous node and one for the next node.</p>
+                </section>
+                <section>
+                    <img src="assets/Frame 7.png" alt="" />
+                </section>
+                <section>
+                    <h3>Declare Doubly linked list</h3>
+                    <img src="assets2/decl-dll.png" alt="" />
+                </section>
+                <section>
+                    <h3>Create Doubly linked list</h3>
+                    <img src="assets2/" alt="" />
+                </section>
+                <section>
+                    <h5>Insert at front </h5>
+                    <img src="assets2/insert-front-dll.png" alt="" />
+                </section>
+               
+                <section>
+                    <h3>Insert node after another </h3>
+
+                    <img src="assets2/insertafterdll.png" style="height: 15em;" alt="" />
+                </section>
+                <section>
+                    <h3>Insert node at end</h3>
+
+                    <img src="assets2/insertend-dll.png" alt="" />
+                </section>
+                <section>
+                    <h5>Delete node </h5>
+
+                    <img src="assets2/deletenode-dll.png" style="height: 16em;" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Circular linked list</h3>
+                    <p style="font-size: 35px;">In a circular linked list the last node of the list holds the address
+                        of the first node hence forming a circular chain.</p>
+                </section>
+                <section>
+                    <img src="assets/Frame 8.png" alt="" />
+                </section>
+                <section>
+                    <h3>Declare Circular linked list</h3>
+                    <img src="assets2/dec-cll.png" alt="" />
+                </section>
+                <section>
+                    <h5>Add to empty list </h5>
+                    <img src="assets2/add-empty-cll.png" alt="" />
+                </section>
+               
+                <section>
+                    <h5>Insert at front </h5>
+                    <img src="assets2/add-front-cll.png" alt="" />
+                </section>
+               
+                <section>
+                    <h3>Insert node after another </h3>
+
+                    <img src="assets2/add-after-cll.png" style="height: 15em;" alt="" />
+                </section>
+                <section>
+                    <h3>Insert node at end</h3>
+
+                    <img src="assets2/add-end-cll.png" alt="" />
+                </section>
+                <section>
+                    <h5>Delete node </h5>
+
+                    <img src="assets2/delete-cll.png" style="height: 16em;" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Stacks</h3>
+                </section>
+                <section>
+                    <h4>What is a Stack?</h4>
+                    <p style="font-size: 35px;">Stack is a linear data structure which follows a particular order in
+                        which
+                        the operations are performed. The order may be LIFO(Last In First Out) or
+                        FILO(First In Last Out).</p>
+                </section>
+                <section>
+                    <img src="assets/Frame 9.png" alt="" />
+                </section>
+                <section>
+                    <h3>Basic features of Stack</h3>
+                    <ul style="font-size: 30px;">
+                        <li>Stack is an ordered list of similar data types.</li>
+                        <li>Stack is a LIFO(Last in First out) structure or we can say
+                            FILO(First in Last out).</li>
+                        <li>push() function is used to insert new elements into the Stack and
+                            pop() function is used to remove an element from the stack. Both
+                            insertion and removal are allowed at only one end of Stack called Top.</li>
+                        <li>Stack is said to be in Overflow state when it is completely full and is
+                            said to be in Underflow state if it is completely empty.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>LIFO</h3>
+
+                    <img src="assets2/lifo-st.png" alt="" />
+                </section>
+                <section>
+                    <h3>Working of Stack</h3>
+
+                    <img src="assets2/working-st.png" alt="" />
+                </section>
+                <section>
+                    <h3>Declare a stack</h3>
+
+                    <img src="assets2/dec-st.png" alt="" />
+                </section>
+                
+                <section>
+                    <h3>Create a stack</h3>
+
+                    <img src="assets2/create-st.png" alt="" />
+                </section>
+                <section>
+                    <h3>Push Function</h3>
+
+                    <img src="assets2/push-st.png" alt="" />
+                </section>
+                <section>
+                    <h3>Pop Function</h3>
+
+                    <img src="assets2/pop-st.png" alt="" />
+                </section>
+
+
+            </section>
+            <section>
+                <section>
+                    <h3>Algorithm for PUSH operation</h3>
+                    <ul style="font-size: 35px;">
+                        <li>Check if the stack is full or not.</li>
+                        <li>If the stack is full, then print an error of overflow and exit the program.</li>
+                        <li>If the stack is not full, then increment the top and add the element.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Algorithm for POP operation</h3>
+                    <ul style="font-size: 35px;">
+                        <li>Check if the stack is empty or not.</li>
+                        <li>If the stack is empty, then print an error of underflow and exit the program.</li>
+                        <li>If the stack is not empty, then print the element at the top and decrement the top.</li>
+                    </ul>
+                </section>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Position of Top</th>
+                            <th>Status of stack</th>
+                        </tr>
+                        <tr>
+                            <td>-1</td>
+                            <td>Stack is empty</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>Only one element is stack</td>
+                        </tr>
+                        <tr>
+                            <td>N-1</td>
+                            <td>Stack is full</td>
+                        </tr>
+                        <tr>
+                            <td>N</td>
+                            <td>Overflow state of stack</td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Queues</h3>
+                </section>
+                <section>
+                    <p style="font-size: 35px;">Queue is also an abstract data type or a linear data structure
+                        in which the first element is inserted from one end called the
+                        REAR(also called tail), and the removal of the existing element
+                        takes place from the other end called FRONT(also called head).</p>
+                </section>
+                <section>
+                    <img src="assets/Frame 10.png" alt="" />
+                </section>
+                <section>
+                    <h3>Basic features of Queues</h3>
+                    <ul style="font-size: 30px;">
+                        <li>Like stack, queue is also an ordered list of elements of similar data types.</li>
+                        <li>Queue is a FIFO( First in First Out ) structure.</li>
+                        <li>Once a new element is inserted into the Queue, all the elements inserted before the
+                            new element in the queue must be removed, to remove the new element.</li>
+                        <li>front( ) function is often used to return the value of the first element without dequeuing
+                            it.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Declare Queue</h3>
+                    <img src="assets2/dec-q.png" alt="" />
+                </section>
+                <section>
+                    <h3>Create Queue</h3>
+                    <img src="assets2/create-q.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Algorithm of ENQUEUE</h3>
+                    <ul style="font-size: 35px;">
+                        <li>Check if the queue is full or not.</li>
+                        <li>If the queue is full, then print an overflow error and exit the program.</li>
+                        <li>If the queue is not full, then increment the tail and add the element.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>ENQUEUE Function</h3>
+                    <img src="assets2/enque.png" alt="" />
+                </section>
+                
+                <section>
+                    <h3>Algorithm of DEQUEUE</h3>
+                    <ul style="font-size: 35px;">
+                        <li>Check if the queue is empty or not.</li>
+                        <li>If the queue is empty, then print an underflow error and exit the program.</li>
+                        <li>If the queue is not empty, then print the element at the head and increment the head.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>DEQUEUE Function</h3>
+                    <img src="assets2/deque.png" alt="" />
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Recursion</h3>
+                    <p style="font-size: 35px;">The process in which a function calls itself directly or indirectly is
+                        called
+                        recursion and the corresponding function is called a recursive function.</p>
+                </section>
+                <section>
+                    <img src="assets2/recursion-1.png" alt="" />
+                </section>
+                <section>
+                    <h5>● Recursive functions call themselves until a condition (base case) is met.</h5>
+                    <br>
+                    <h5>● iteration uses a looping structure (while, do while, for, foreach) in order to repeat a section of
+                        code until a certain condition is met.
+                        </h5>
+                    
+                </section>
+
+                <section>
+                    <h3>Why Use Recursion?</h3>
+                </section>
+                <section>
+                   <h5>1.	Complex tasks can be broken down into simpler problems.</h5>
+                   <h5>2.	Code using recursion is usually shorter and more elegant</h5>
+                   <h5>3.	Sequence generation is cleaner with recursion than with iteration.</h5>
+                </section>
+                <section>
+                    <h3>Fibonacci Number using Recursion</h3>
+                    <img src="assets2/factorial-1.png" alt="">
+                </section>
+                <section>
+                    <h3>Factorial using Recursion</h3>
+                    <img src="assets2/fib-1.png" alt="">
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h4>Sieve of Eratosthenes</h4>
+                </section>
+                <section>
+                    <p style="font-size: 30px;">In mathematics, the sieve of Eratosthenes is a simple, ancient algorithm
+                        for
+                        finding all prime numbers up to any given limit.
+                        It does so by iteratively marking as composite (i.e., not prime) the multiples
+                        of each prime, starting with the first prime number, 2. The multiples of a
+                        given prime are generated as a sequence of numbers starting from that prime,
+                        with constant difference between them that is equal to that prime.[1] This is
+                        the sieve's key distinction from using trial division to sequentially test
+                        each candidate number for divisibility by each prime.
+                    </p>
+                </section>
+            </section>
+            <section>
+                <h3>Introduction to Competitive Programming</h3>
+            </section>
+            <section data-transition="zoom">
+                <h3>That's All Folks</h3>
+                <p>For Any Queries</p>
+                <a href="http://www.facebook.com/nibblecomputersociety" target="_blank">
+                    <img src="assets/facebook.svg" width="64px" />
+                </a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://www.github.com/ncs-jss" target="_blank">
+                    <img src="assets/github-icon.svg" height="64px" />
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://www.hackncs.com" target="_blank">
+                    <img src="assets/ncsncs_logo.png" height="64px" />
+                </a>
+                <h3>Thank You</h3>
+                <p>Nibble Computer Society</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- reveal.js JS Files -->
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/particle.js"></script>
+    <script>
+        // Required, even if empty.
+        Reveal.initialize({
+            history: true,
+            transition: "convex",
+            dependencies: [{
+                src: "plugin/highlight/highlight.js",
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                },
+            },],
+        });
+        Reveal.configure({
+            slideNumber: "h.v",
+        });
+    </script>
+
+    <!-- Script to save PDF. Put "print-pdf" in query string and press Ctrl+P to save. -->
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = "css/print/pdf.css";
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+    </script>
+</body>
+
+</html>
